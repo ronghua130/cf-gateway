@@ -24,6 +24,10 @@ spring:
           uri: http://localhost:8084
           predicates:
             - Path=/makes/**
+        - id: orderDashboard
+          uri: http://localhost:8085
+          predicates:
+            - Path=/orderDashboards/**
       globalcors:
         corsConfigurations:
           '[/**]':
