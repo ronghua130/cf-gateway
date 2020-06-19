@@ -63,7 +63,7 @@ spring:
           predicates:
             - Path=/makes/**
         - id: orderdashboard
-          uri: http://localhost:8085
+          uri: http://orderdashboard:8080
           predicates:
             - Path=/orderDashboards/**
       globalcors:
