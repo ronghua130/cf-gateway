@@ -62,7 +62,7 @@ spring:
           uri: http://make:8080
           predicates:
             - Path=/makes/**
-        - id: orderDashboard
+        - id: orderdashboard
           uri: http://localhost:8085
           predicates:
             - Path=/orderDashboards/**
